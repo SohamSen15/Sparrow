@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Source Code Pro", monospace;
+}
+
+.scrollbar {
+  scrollbar-color: #777 #0000;
+  flex-grow: 1;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+}
+
+.scrollbar *::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+  background-color: #0000;
+}
+
+.scrollbar *::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  height: 6px;
+  width: 6px;
+  background: #777;
+}
+
+.scrollbar *::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background: black;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  height: 100%;
+}
