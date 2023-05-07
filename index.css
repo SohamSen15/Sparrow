@@ -7,6 +7,8 @@
 .scrollbar {
   scrollbar-color: #777 #0000;
   flex-grow: 1;
+  margin: 4em;
+  width: 90vh !important;
   height: 100%;
   display: inline-block;
   margin: 0;
