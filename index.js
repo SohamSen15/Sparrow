@@ -112,6 +112,8 @@ const runBash = () => {
 ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ 
                                                            
 Sparrow is an anytime-anywhere code environment including a full version of Debian Linux v11.0 running in your browser on the fly using WASM. We've all experienced dependency issues and compatibility issues with having different environements on different machines. Solutions like StackBlitz WebContainers fix this but only for Node.JS environments. Sparrow aims to generalize the solution over all environments by having a complete bundled operating system. Currently, the system runs at about 3x slower than native speed at best and 10x slower in the worst case scenarios. Overall, it is 5x slower on an average.
+
+It may take 2 to 5 minutes to load the project as it loads an ext2 disk image of Debian. Loading...
 `])
   
 
